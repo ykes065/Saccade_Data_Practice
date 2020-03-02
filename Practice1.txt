@@ -1,0 +1,6 @@
+import pandas as pd 
+
+data = pd.read_excel(r'file:///G:\Shared%20drives\People\Yasmin\PhD%202020\VO2_saccades_clean_validation.xlsx')
+
+print(data.info())
+
